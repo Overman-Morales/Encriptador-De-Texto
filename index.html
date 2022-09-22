@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title> AluraLatam_Challeng #1 </title>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <a href="https://www.aluracursos.com/"><img class="logoImg" src="img/Vector.png"></a>
+      <h1 class="tittle">Encriptador de mensaje</h1>
+    </div>
+    <div class="left">
+        <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="Ingrese el texto aqui">
+    </div>
+    <div class="right">
+      <img src="img/lupa.png" id="imgDer">
+      <h1 id="texto">Ningún mensaje fue encontrado</h1>
+      <textarea id="texto2" >Ingresa el texto que desee encriptar o desenciptar.</textarea>
+      <button type="button" id="copiar" onclick="copiarTexto()">¡Copiar!</button>
+    </div>
+    <div class="left-button">
+      <p>Sólo letra minusculas y sin acento!</p>
+      <button type="button" id="btn-encriptar" onclick="encriptar()">¡Encriptar!</button>
+      <button type="button" id="btn-desencriptar" onclick="desencriptar()">¡Desencriptar!</button>
+    </div>
+  </div>
+  <footer>
+    <div class="container-social">
+      <a  href="https://github.com/Overman-Morales"
+        rel="noreferrer"
+        target="_blank"
+        class="github ">
+        <i></i>Github</a>
+      <a href="https://www.linkedin.com/in/overman-leonardo-morales-perez-a739b5229/"
+        rel="noreferrer"
+        target="_blank"
+        class="linkedin ">
+        <i></i>Linkedin</a>
+      <a href="https://wa.me/525619392488"
+        rel="noreferrer"
+        target="_blank"
+        class="whatsapp " >
+        <i></i>WhatsApp</a>
+      <h2>Desarrollado por: Overman Leonardo Morales Perez </h2>
+  </footer>
+  <script src="js/encriptar.js"></script>
+  <script src="js/desencriptar.js"></script>
+</body>
+</html>
